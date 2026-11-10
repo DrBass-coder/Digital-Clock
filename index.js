@@ -12,6 +12,7 @@ function updateClock(){
    h = h.toString().padStart(2, "0");
    m = m.toString().padStart(2, "0");
    s = s.toString().padStart(2, "0");
+}
 function updateDate(){
     let date = new Date();
     let day = date.getDate();
