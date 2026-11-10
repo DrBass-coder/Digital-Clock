@@ -9,13 +9,9 @@ function updateClock(){
     let h = new Date().getHours();
     let m = new Date().getMinutes();        
     let s = new Date().getSeconds();
-    let ampm = "AM";
-    let date = new Date();
-
-    if(h >= 12){
-        h = h + 12;
-        ampm = "PM";
-    }
+   h = h.toString().padStart(2, "0");
+   m = m.toString().padStart(2, "0");
+   s = s.toString().padStart(2, "0");
 function updateDate(){
     let date = new Date();
     let day = date.getDate();
