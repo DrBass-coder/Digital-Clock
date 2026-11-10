@@ -53,7 +53,7 @@ h2{
     
 }
 
-.clock #ampm{
+.clock #am{
     bottom: 0;
     position: absolute;
     width: 60px;
@@ -61,3 +61,10 @@ h2{
     font-size: 20px;
     background-color: green;
 }
+.clock #pm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: green;
