@@ -13,7 +13,7 @@ function updateClock(){
     let date = new Date();
 
     if(h >= 12){
-        h = h - 00;
+        h = h - 24;
         ampm = "PM";
     }
 function updateDate(){
